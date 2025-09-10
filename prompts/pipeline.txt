@@ -1,0 +1,9 @@
+Build me a complete Python ML pipeline based on this cleaned DataFrame schema:
+{{schema_json}}
+Include:
+  1. Data loading & preprocessing
+  2. Feature engineering
+  3. Model selection & hyperparameters
+  4. Training loop with MLflow logging
+  5. Dockerfile and a CI YAML for GitHub Actions
+Return files in a JSON object: {"pipeline.py":"...", "Dockerfile":"...", "ci.yml":"..."}

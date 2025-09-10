@@ -1,0 +1,9 @@
+You are an expert data engineer. Given this JSON QC report:
+{{qc_json}}
+And this data sample as a list of records:
+{{sample_records}}
+Suggest 3 cleaning steps (with rationale) and output valid pandas code snippets only, in JSON:
+[
+  {"step": "...", "code": "..."},
+  ...
+]

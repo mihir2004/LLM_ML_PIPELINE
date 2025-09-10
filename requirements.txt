@@ -1,0 +1,8 @@
+Flask>=2.0
+pandas>=1.4
+pandas-profiling>=3.5
+openai>=0.27
+mlflow>=2.0
+python-dotenv>=0.21
+sqlalchemy>=1.4
+psycopg2-binary>=2.9
